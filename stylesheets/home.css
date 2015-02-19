@@ -1,0 +1,54 @@
+.content>.container {
+  background-color: #ECECEB;
+  padding: 0;
+}
+
+.content .left-col {
+  background-color: #ffffff;
+}
+
+.content .right-col {
+  text-align: center;
+  background-color: #ECECEB;
+}
+
+.content .border-image {
+  margin: 15px auto;
+  border: 10px solid;
+}
+
+.content .right-col .img {
+  padding: 0;
+}
+
+.content .right-col img {
+  width: 100%;
+}
+
+.content .featured {
+  text-align: left;
+}
+
+.content .featured p, .content .featured h4 {
+  padding: 0 0 0 10px;
+}
+
+.content .featured img {
+  width: 100%;
+}
+
+.flexslider {
+  margin: 0 0 60px;
+  position: relative;
+  padding: 0;
+}
+
+.flexslider li {
+  width: 940px; 
+  float: left; 
+  display: block;
+}
+
+.flexslider li img {
+  width: 100%;
+}

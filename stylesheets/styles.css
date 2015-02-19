@@ -1,0 +1,190 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 140px;
+}
+
+a {
+  cursor: pointer;
+  color: #09598d;
+}
+
+h2 {
+  color: #09598d;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+h3 {
+  color: #e69b5a;
+  font-weight: 500;
+  border-bottom: 1px solid #B9BABA;
+  font-size: 20px;
+  margin: 20px auto 15px auto;
+}
+
+h4 {
+  color: #09598d;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+ul>div {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+p {
+  padding: 0;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.heading {
+  background-color: #e69b5a;
+  color: #fff;
+  margin-right: -30px;
+  padding: 5px 10px;
+  position: relative;
+  right: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.space {
+  height: 30px;
+}
+
+.header>.container {
+  margin: 15px auto;
+}
+
+.header {
+  border-top: 15px solid #e69b5a;
+  border-bottom: 5px solid #bdbec1;
+  background-color: #ECECEB;
+  text-indent: center;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.header .navbar>div {
+  list-style-type: none;
+  margin: 15px 3%;
+}
+
+.header .navbar li {
+  margin: 20px 0;
+}
+
+.content {
+  border-top: 15px solid #09598d;
+}
+
+.footer {
+  background-color: #08456e;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 140px;
+  color: #fff;
+}
+
+.footer>.container {
+  margin: 15px auto;
+}
+
+.footer .locations ul {
+  margin-top: 15px;
+}
+
+.footer .locations li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer .separator {
+  width: 1px;
+  height: 50px;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.footer .social-media {
+  margin: 12.5px 0;
+}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+      .footer .social-media {
+        display: none;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+      .footer .social-media {
+        display: block;
+      }
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Medium Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+      .footer .social-media {
+        display: none;
+      }
+    }
+
+    /* Small Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+    }
+
+    /* Extra Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    }
+
+    /* Custom Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    }
+
+    /* Smaller than Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }

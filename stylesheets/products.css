@@ -1,0 +1,19 @@
+.content .one-third img {
+  width: 33%;
+}
+
+.content .one-fourth img {
+  width: 23%;
+}
+
+.content .one-half img {
+  width: 48%;
+}
+
+.content .sub-section {
+  margin-bottom: 25px;
+}
+
+.content .to-top {
+  font-size: 12px;
+}
