@@ -1,0 +1,75 @@
+.slider {
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider .container {
+  padding: 0;
+  overflow: hidden;
+}
+
+#left-panel, #right-panel {
+  position: absolute;
+  top: 0;
+  background-color: #000;
+}
+
+#left-panel li, #right-panel li {
+  opacity: .5;
+}
+
+#left-clicker, #right-clicker {
+  height: 64px;
+  width: 32px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+}
+
+#left-clicker {
+  background-image: url('../images/prev.png');
+}
+
+#right-clicker {
+  background-image: url('../images/nxt.png');
+}
+
+.slider ul {
+  padding: 0;
+  height: 375px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.slider li {
+  list-style: none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.img-heading {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-shadow: 2px 2px 8px #000;
+}

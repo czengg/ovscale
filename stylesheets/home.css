@@ -37,18 +37,18 @@
   width: 100%;
 }
 
-.flexslider {
-  margin: 0 0 60px;
-  position: relative;
-  padding: 0;
+@media (max-width: 767px) {
+  .content .right-col {
+    display: none;
+  }
+
+  .content>.container {
+    background-color: #fff;
+  }
 }
 
-.flexslider li {
-  width: 940px; 
-  float: left; 
-  display: block;
-}
-
-.flexslider li img {
-  width: 100%;
+@media (max-width: 650px) {
+  .slider {
+    display: none;
+  }
 }

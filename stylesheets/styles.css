@@ -125,6 +125,16 @@ li {
   margin: 12.5px 0;
 }
 
+.logo {
+  width: 100%;
+}
+
+.nav-button {
+  display: none;
+  background-color: #e69b5a; 
+  width: 100%;
+}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
@@ -178,13 +188,62 @@ li {
 
     /* Extra Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
+      .logo, .footer-logo {
+        display: none;
+      }
+
+      .navbar {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .nav-container {
+        text-align: center;
+      }
     }
 
     /* Custom Devices, Phones */ 
     @media only screen and (max-width : 480px) {
+      .footer-logo {
+        display: block;
+      }
+
+      .locations {
+        display: none;
+      }
+
+      .header {
+        border: none;
+      }
+
+      .header>.container {
+        margin: 0;
+      }
+
+      .nav-button {
+        display: block;
+      }
+
+      .navbar {
+        display: none;
+      }
+
+      .header .navbar>div {
+        width: 100%;
+        margin: 0;
+      }
+
+      .header .navbar li {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+      }
     }
 
     /* Smaller than Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
         
     }
+
+
