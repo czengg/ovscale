@@ -131,7 +131,7 @@ li {
 
 .nav-button {
   display: none;
-  background-color: #e69b5a; 
+  
   width: 100%;
 }
 
@@ -214,10 +214,17 @@ li {
 
       .header {
         border: none;
+        background-color: #e69b5a;
+        color: #fff;
+        cursor: pointer;
       }
 
       .header>.container {
         margin: 0;
+      }
+
+      .header a {
+        color: #fff;
       }
 
       .nav-button {
